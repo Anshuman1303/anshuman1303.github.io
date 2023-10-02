@@ -40,22 +40,24 @@
     <span style="display: none;" id="down-button"></span> <!-- To avoid js error -->
     <div class="background" id="background"></div>
     <div class="gallery" id="gallery">
-    <?php
-    $dir = "../Assets/Gallery-Images/";
-    if (is_dir($dir)){
-      if ($dh = opendir($dir)){
-        $i=0;
-        while (($file = readdir($dh)) !== false){
-          if (preg_match("/\.(jpg|jpeg|png|gif)$/", $file)){
-            $name = pathinfo($file,PATHINFO_FILENAME);
-            echo "<div class='animate-in' caption='$name'><img src='$dir$file' alt='$file'></div>";
-            $i+=1;
-          }
-        }
-        closedir($dh);
-      }
-    }
-    ?>    
+        <div class="animate-in" caption="Caption 1"><img src="../Assets/Gallery-Images/Caption 1.jpeg" alt="Caption 1"></div>
+        <div class="animate-in" caption="Caption 2"><img src="../Assets/Gallery-Images/Caption 2.jpg" alt="Caption 2"></div>
+        <div class="animate-in" caption="Caption 3"><img src="../Assets/Gallery-Images/Caption 3.jpg" alt="Caption 3"></div>
+        <div class="animate-in" caption="Caption 4"><img src="../Assets/Gallery-Images/Caption 4.jpg" alt="Caption 4"></div>
+        <div class="animate-in" caption="Caption 5"><img src="../Assets/Gallery-Images/Caption 5.jpg" alt="Caption 5"></div>
+        <div class="animate-in" caption="Caption 6"><img src="../Assets/Gallery-Images/Caption 6.jpg" alt="Caption 6"></div>
+        <div class="animate-in" caption="Caption 7"><img src="../Assets/Gallery-Images/Caption 7.jpg" alt="Caption 7"></div>
+        <div class="animate-in" caption="Caption 8"><img src="../Assets/Gallery-Images/Caption 8.jpg" alt="Caption 8"></div>
+        <div class="animate-in" caption="Caption 9"><img src="../Assets/Gallery-Images/Caption 9.jpg" alt="Caption 9"></div>
+        <div class="animate-in" caption="Caption 10"><img src="../Assets/Gallery-Images/Caption 10.jpg" alt="Caption 10"></div>
+        <div class="animate-in" caption="Caption 11"><img src="../Assets/Gallery-Images/Caption 11.jpg" alt="Caption 11"></div>
+        <div class="animate-in" caption="Caption 12"><img src="../Assets/Gallery-Images/Caption 12.jpg" alt="Caption 12"></div>
+        <div class="animate-in" caption="Caption 13"><img src="../Assets/Gallery-Images/Caption 13.jpeg" alt="Caption 13"></div>
+        <div class="animate-in" caption="Caption 14"><img src="../Assets/Gallery-Images/Caption 14.jpg" alt="Caption 14"></div>
+        <div class="animate-in" caption="Caption 15"><img src="../Assets/Gallery-Images/Caption 15.jpg" alt="Caption 15"></div>
+        <div class="animate-in" caption="Caption 16"><img src="../Assets/Gallery-Images/Caption 16.jpg" alt="Caption 16"></div>
+        <div class="animate-in" caption="Caption 17"><img src="../Assets/Gallery-Images/Caption 17.jpeg" alt="Caption 17"></div>
+        <div class="animate-in" caption="Caption 18"><img src="../Assets/Gallery-Images/Caption 18.jpeg" alt="Caption 18"></div>
     </div>
     <footer class="footer" id="footer">
         <div>
