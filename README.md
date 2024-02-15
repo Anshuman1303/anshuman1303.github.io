@@ -1,5 +1,5 @@
 # xyz
-Website made for IIF NSUT round 2
+Website made for IIF NSUT round 2. Available at [github](https://anshuman1303.github.io/xyz/)
 
 Credits:<br>
 background:
